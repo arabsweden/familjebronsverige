@@ -1,0 +1,35 @@
+{
+  "welcome": "Welcome to Family Bridge in Sweden",
+  "header": {
+    "home": "Home",
+    "categories": "Main Categories",
+    "ask": "Ask & Consult",
+    "glossary": "Glossary",
+    "budget": "Budget Planner",
+    "faq": "FAQ",
+    "podcast": "Family Bridge Podcast",
+    "emergency": "Where to find help?",
+    "search": "Global Search",
+    "searchPlaceholder": "Search topics, laws, glossary..."
+  },
+  "hero": {
+    "badge": "Information • Guidance • Support",
+    "headline": "A bridge between families and society in Sweden",
+    "description": "An information platform that helps families understand schools, social services, children’s rights and Swedish regulations in a simple and reliable way.",
+    "audioLabel": "Listen to the text",
+    "askButton": "Ask your question safely",
+    "podcastButton": "Family Bridge Podcast",
+    "emergencyButton": "Where can I get help?",
+    "trust1": "Simple information",
+    "trust2": "Official sources",
+    "trust3": "Privacy and respect",
+    "trust4": "Available in three languages",
+    "keywords": "Key Swedish terms:",
+    "glossaryLink": "View full glossary →",
+    "categoriesTitle": "The Five Main Guide Categories",
+    "categoriesLabel": "5 Categories",
+    "glossaryCardTitle": "Glossary of Swedish Terms & Authorities",
+    "glossaryCardDesc": "Understand key terms used in Swedish public services, schools, and everyday life with pronunciations.",
+    "glossaryCardLink": "Browse Swedish-Arabic Glossary"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "welcome": "Välkommen till Familjens Bro i Sverige",
+  "header": {
+    "home": "Hem",
+    "categories": "Huvudkategorier",
+    "ask": "Fråga & Rådgör",
+    "glossary": "Ordlista",
+    "budget": "Budgetkalkylator",
+    "faq": "Vanliga frågor",
+    "podcast": "Familjebron Podcast",
+    "emergency": "Var hittar jag hjälp?",
+    "search": "Sök i portalen",
+    "searchPlaceholder": "Sök ämnen, lagar, ordlista..."
+  },
+  "hero": {
+    "badge": "Information • Vägledning • Stöd",
+    "headline": "En bro mellan familjen och samhället i Sverige",
+    "description": "En informationsplattform som hjälper familjer att förstå skolan, socialtjänsten, barns rättigheter och svenska regler på ett enkelt och tillförlitligt sätt.",
+    "audioLabel": "Lyssna på texten",
+    "askButton": "Ställ din fråga tryggt",
+    "podcastButton": "Familjebron Podcast",
+    "emergencyButton": "Var kan jag få hjälp?",
+    "trust1": "Enkel information",
+    "trust2": "Officiella källor",
+    "trust3": "Integritet och respekt",
+    "trust4": "På tre språk",
+    "keywords": "Viktiga svenska begrepp:",
+    "glossaryLink": "Visa hela ordlistan →",
+    "categoriesTitle": "Guidens fem huvudområden",
+    "categoriesLabel": "5 Kategorier",
+    "glossaryCardTitle": "Ordlista över svenska begrepp & myndigheter",
+    "glossaryCardDesc": "Lär dig viktiga ord som används i skola, vård och myndighetskontakter med arabisk förklaring.",
+    "glossaryCardLink": "Bläddra i svensk-arabisk ordlista"
+  }
+}
