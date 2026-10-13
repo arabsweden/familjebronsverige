@@ -21,14 +21,24 @@ export const Footer: React.FC<FooterProps> = ({
     <footer id="main-footer" className="bg-[#002D54] text-[#E2E8F0] mt-16 border-t border-[#003C6E]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
         {/* Top Emergency CTA in footer */}
-        <div className="help-bottom-section">
+        <div className="bg-[#003C6E] border border-blue-400/20 rounded-3xl p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-sm">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-[#DC2626]/20 text-[#F87171] border border-[#DC2626]/30 flex items-center justify-center shrink-0">
+              <PhoneCall className="w-5 h-5 animate-pulse" />
+            </div>
+            <div>
+              <h4 className="text-white font-bold text-base">هل أنت بحاجة لمساعدة طارئة أو استشارة عاجلة؟</h4>
+              <p className="text-xs text-blue-200 mt-0.5">
+                اتصل بـ 112 في حالات الخطر المباشر، أو 1177 للاستشارات الصحية، أو سوسيال الطوارئ في بلديتك.
+              </p>
+            </div>
+          </div>
           <button
             id="footer-emergency-btn"
             onClick={onEmergencyClick}
-            className="help-bottom-button"
+            className="hover-emergency-pulse w-full sm:w-auto px-6 py-2.5 rounded-full bg-[#DC2626] hover:bg-[#B91C1C] active:scale-95 text-white font-bold text-xs sm:text-sm shrink-0 transition-all duration-300 cursor-pointer shadow-sm hover:shadow-lg hover:ring-4 hover:ring-red-400/40"
           >
-            <PhoneCall className="w-6 h-6" />
-            <span>أين أجد المساعدة؟</span>
+            أين أجد المساعدة؟ (Var hittar jag hjälp?)
           </button>
         </div>
 
@@ -37,6 +47,7 @@ export const Footer: React.FC<FooterProps> = ({
           {/* Brand Col */}
           <div className="space-y-3 md:col-span-1">
             <div className="flex items-center gap-2.5">
+              <span className="text-2xl">🇸🇪</span>
               <span className="text-lg font-bold text-white">جسر الأسرة في السويد</span>
             </div>
             <p className="text-xs text-blue-200 leading-relaxed">

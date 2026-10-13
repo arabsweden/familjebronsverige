@@ -300,7 +300,7 @@ export const BudgetPlanner: React.FC<BudgetPlannerProps> = ({
 💡 **مقارنة مع معايير مصلحة حماية المستهلك السويدية (Konsumentverket)**:
   • متوسط تكلفة الطعام المرجعية: ${benchmark.foodReference.toLocaleString()} SEK (مصروفكم الفعلي: ${budget.expenses.groceries.toLocaleString()} SEK)
 
-تم إنشاء التقرير عبر بوابة جسر الأسرة في السويد`;
+تم إنشاء التقرير عبر بوابة جسر الأسرة في السويد 🇸🇪`;
   };
 
   const handleCopyReport = async () => {
@@ -1060,7 +1060,7 @@ export const BudgetPlanner: React.FC<BudgetPlannerProps> = ({
                     </div>
 
                     <div className="text-[11px] text-gray-500 font-mono font-medium">
-                      {tip.titleSwedish}
+                      🇸🇪 {tip.titleSwedish}
                     </div>
 
                     <p className="text-xs text-gray-600 font-medium leading-relaxed">

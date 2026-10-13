@@ -1,6 +1,8 @@
 {
-  "name": "جسر الأسرة في السويد",
+  "name": "الاسرة في السويد والسوسيال ",
   "description": "منصة موثوقة ومبسطة باللغة العربية لمساعدة العائلات في السويد على فهم المدرسة، السوسيال، حقوق الطفل، والحياة اليومية مع استشارات فورية وميزة القراءة الصوتية.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

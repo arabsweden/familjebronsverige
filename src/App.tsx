@@ -10,7 +10,7 @@ import { PodcastSection } from "./components/PodcastSection";
 import { BudgetPlanner } from "./components/BudgetPlanner";
 import { OfficialWebsiteBanner } from "./components/OfficialWebsiteBanner";
 import { EmergencyHelpModal } from "./components/EmergencyHelpModal";
-import { BackToTop } from "./components/BackToTop";
+import { FloatingEmergencyButton } from "./components/FloatingEmergencyButton";
 import { NoticeBanner } from "./components/NoticeBanner";
 import { GlobalSearchOverlay } from "./components/GlobalSearchOverlay";
 import { Footer } from "./components/Footer";
@@ -171,6 +171,12 @@ export default function App() {
               onExploreCategory={handleExploreCategory}
             />
 
+            {/* Interactive Monthly Budget Planner Tool */}
+            <BudgetPlanner
+              onExploreCategory={handleExploreCategory}
+              onAskQuestion={(q) => handleStartAsk(q)}
+            />
+
             {/* Categories Deep Browser */}
             <CategorySection
               activeCategory={activeCategoryId}
@@ -181,12 +187,6 @@ export default function App() {
 
             {/* Swedish Glossary Highlights */}
             <GlossarySection initialSearchTerm={glossarySearchTerm} />
-
-            {/* Interactive Monthly Budget Planner Tool */}
-            <BudgetPlanner
-              onExploreCategory={handleExploreCategory}
-              onAskQuestion={(q) => handleStartAsk(q)}
-            />
           </div>
         )}
 
@@ -371,8 +371,8 @@ export default function App() {
         }}
       />
 
-      {/* Floating Compact Help Button & BackToTop */}
-      <BackToTop />
+      {/* Floating Compact Help Button & Popover (أين أجد المساعدة؟) */}
+      <FloatingEmergencyButton onOpenFullModal={handleOpenEmergency} />
 
       {/* Emergency Help Modal */}
       <EmergencyHelpModal
